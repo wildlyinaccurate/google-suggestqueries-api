@@ -13,9 +13,9 @@ class ClientTest extends \PHPUnit_Framework_TestCase
     public function shouldBuildCorrectQueryURL()
     {
         $client = new Client;
-        $baseUrl = $client->getOption('base_url');
+        $baseUrl = $client->setOption('base_url', 'http://www.google.com/complete/search?output=toolbar');
 
-        $this->assertEquals("{$baseUrl}&q=something", $client->buildUrl(array('q' => 'something')));
+        $this->assertEquals('http://www.google.com/complete/search?output=toolbar&q=something', $client->buildUrl(array('q' => 'something')));
     }
 
     /**
