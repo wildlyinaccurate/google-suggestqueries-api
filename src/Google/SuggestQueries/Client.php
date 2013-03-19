@@ -84,6 +84,17 @@ class Client
     }
 
     /**
+     * Build a query URL
+     *
+     * @param  array $options
+     * @return string
+     */
+    public function buildUrl(array $options = array())
+    {
+        return "{$this->options['base_url']}&q={$options['q']}";
+    }
+
+    /**
      * Get suggestions for the given query
      *
      * @param string $query
@@ -91,9 +102,7 @@ class Client
      */
     public function getSuggestions($query)
     {
-        $url = "{$this->options['base_url']}&q={$query}";
-
-        $request = new Request('GET', $url);
+        $request = new Request('GET', $this->buildUrl(array('q' => $query)));
         $response = new Response;
 
         $this->client->send($request, $response);

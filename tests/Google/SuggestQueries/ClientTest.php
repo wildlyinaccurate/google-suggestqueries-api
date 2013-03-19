@@ -10,6 +10,17 @@ class ClientTest extends \PHPUnit_Framework_TestCase
     /**
      * @test
      */
+    public function shouldBuildCorrectQueryURL()
+    {
+        $client = new Client;
+        $baseUrl = $client->getOption('base_url');
+
+        $this->assertEquals("{$baseUrl}&q=something", $client->buildUrl(array('q' => 'something')));
+    }
+
+    /**
+     * @test
+     */
     public function shouldQueryAPIAndBuildASuggestionCollection()
     {
         $curl = new TestCurl;
