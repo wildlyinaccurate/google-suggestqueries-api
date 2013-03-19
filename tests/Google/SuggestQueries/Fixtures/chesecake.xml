@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<toplevel>
+    <CompleteSuggestion>
+        <suggestion data="cheesecake factory" />
+        <num_queries int="11000000" />
+    </CompleteSuggestion>
+    <CompleteSuggestion>
+        <suggestion data="cheesecake recipe" />
+        <num_queries int="19000000" />
+    </CompleteSuggestion>
+    <CompleteSuggestion>
+        <suggestion data="cheesecake factory menu" />
+        <num_queries int="2770000" />
+    </CompleteSuggestion>
+</toplevel>

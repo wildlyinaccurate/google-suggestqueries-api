@@ -1,0 +1,20 @@
+{
+    "name": "ipc/google-suggestqueries-api",
+    "description": "PHP library for retrieving suggestions from Google's suggestqueries API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joseph Wynn",
+            "email": "joseph_wynn@ipcmedia.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "ext-curl": "*",
+        "kriswallsmith/buzz": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {"Google\\SuggestQueries": "src/"}
+    }
+}
+
