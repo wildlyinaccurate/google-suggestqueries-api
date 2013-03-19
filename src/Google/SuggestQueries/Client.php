@@ -91,7 +91,7 @@ class Client
      */
     public function getSuggestions($query)
     {
-        $url = "{$this->options['base_url']}&q={$query}}";
+        $url = "{$this->options['base_url']}&q={$query}";
 
         $request = new Request('GET', $url);
         $response = new Response;
