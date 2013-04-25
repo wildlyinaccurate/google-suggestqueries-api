@@ -33,3 +33,7 @@ $suggestions = $client->getSuggestions($query);
 // Suggestions can be sorted by their num_queries value:
 $sortedSuggestions = $suggestions->sortByNumQueries();
 ```
+
+## Contributing
+
+When submitting pull requests, please include any relevant tests and ensure the entire test suite passes: `$ phpunit --bootstrap tests/bootstrap.php tests`
