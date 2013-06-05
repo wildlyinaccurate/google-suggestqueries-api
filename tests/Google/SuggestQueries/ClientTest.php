@@ -13,7 +13,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
     public function shouldBuildCorrectQueryURL()
     {
         $client = new Client;
-        $baseUrl = $client->setOption('base_url', 'http://www.google.com/complete/search?output=toolbar');
+        $client->setOption('base_url', 'http://www.google.com/complete/search?output=toolbar');
 
         $this->assertEquals('http://www.google.com/complete/search?output=toolbar&q=something', $client->buildUrl(array('q' => 'something')));
     }
@@ -73,7 +73,6 @@ class ClientTest extends \PHPUnit_Framework_TestCase
     public function shouldSetBaseUrlOption()
     {
         $client = new Client;
-        $originalBaseUrl = $client->getOption('base_url');
 
         $client->setOption('base_url', 'http://www.google.com/');
         $this->assertEquals('http://www.google.com/', $client->getOption('base_url'));
