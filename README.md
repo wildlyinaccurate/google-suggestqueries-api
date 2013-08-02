@@ -7,9 +7,8 @@ Install via composer:
 ```yaml
 {
     "require": {
-        "ipc/google-suggestqueries-api" : "dev-master"
-    },
-    "minimum-stability": "dev"
+        "wildlyinaccurate/google-suggestqueries-api" : "1.0.*"
+    }
 }
 ```
 > `google-suggestqueries-api` follows the PSR-0 convention names for its classes, which means you can easily integrate `google-suggestqueries-api` classes loading in your own autoloader.
