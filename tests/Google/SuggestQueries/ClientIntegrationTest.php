@@ -11,6 +11,10 @@ class ClientIntegrationTest extends \PHPUnit_Framework_TestCase
      */
     public function resultsShouldBeReturnedFromGoogle()
     {
+        if (isset($_ENV['TRAVIS'])) {
+            $this->markTestSkipped('Not running full integration test on Travis');
+        }
+
         $client = new Client;
 
         $suggestions = $client->getSuggestions('chesecake');
