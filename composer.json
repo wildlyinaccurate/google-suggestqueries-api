@@ -13,6 +13,9 @@
         "ext-curl": "*",
         "kriswallsmith/buzz": "0.10"
     },
+    "config": {
+        "bin-dir": "bin"
+    },
     "autoload": {
         "psr-0": {"Google\\SuggestQueries": "src/"}
     }
