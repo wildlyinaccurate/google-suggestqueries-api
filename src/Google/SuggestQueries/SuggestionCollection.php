@@ -5,7 +5,7 @@ namespace Google\SuggestQueries;
 /**
  * Collection of suggestion results
  *
- * @author  Joseph Wynn <joseph_wynn@ipcmedia.com>
+ * @author  Joseph Wynn <joseph@wildlyinaccurate.com>
  */
 class SuggestionCollection implements \ArrayAccess, \Countable
 {

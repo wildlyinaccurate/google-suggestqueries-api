@@ -7,7 +7,7 @@ use Google\SuggestQueries\Exception\XMLSuggestionsException;
 /**
  * XML representation of query suggestions
  *
- * @author  Joseph Wynn <joseph_wynn@ipcmedia.com>
+ * @author  Joseph Wynn <joseph@wildlyinaccurate.com>
  */
 class XMLSuggestions
 {

@@ -12,7 +12,7 @@ use Buzz\Message\Response;
 /**
  * Simple client for the Google suggestqueries API
  *
- * @author  Joseph Wynn <joseph_wynn@ipcmedia.com>
+ * @author  Joseph Wynn <joseph@wildlyinaccurate.com>
  */
 class Client
 {

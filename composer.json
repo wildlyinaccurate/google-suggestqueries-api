@@ -1,11 +1,11 @@
 {
-    "name": "ipc/google-suggestqueries-api",
+    "name": "wildlyinaccurate/google-suggestqueries-api",
     "description": "PHP library for retrieving suggestions from Google's suggestqueries API",
     "type": "library",
     "authors": [
         {
             "name": "Joseph Wynn",
-            "email": "joseph_wynn@ipcmedia.com"
+            "email": "joseph@wildlyinaccurate.com"
         }
     ],
     "require": {

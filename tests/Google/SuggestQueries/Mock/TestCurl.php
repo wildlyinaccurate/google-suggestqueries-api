@@ -9,7 +9,7 @@ use Buzz\Message\RequestInterface;
 /**
  * Mock for Buzz\Client\Curl
  *
- * @author  Joseph Wynn <joseph_wynn@ipcmedia.com>
+ * @author  Joseph Wynn <joseph@wildlyinaccurate.com>
  */
 class TestCurl extends Curl
 {
