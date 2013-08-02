@@ -1,5 +1,7 @@
 # Google SuggestQueries API Client
 
+[![Build Status](https://travis-ci.org/wildlyinaccurate/google-suggestqueries-api.png?branch=master)](https://travis-ci.org/wildlyinaccurate/google-suggestqueries-api)
+
 ## Installation
 
 Install via composer:
