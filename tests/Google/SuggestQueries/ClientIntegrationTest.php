@@ -12,7 +12,6 @@ class ClientIntegrationTest extends \PHPUnit_Framework_TestCase
     public function resultsShouldBeReturnedFromGoogle()
     {
         $client = new Client;
-        $client->getClient()->setProxy('proxyhost:8080');
 
         $suggestions = $client->getSuggestions('chesecake');
 
