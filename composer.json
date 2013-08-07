@@ -1,7 +1,9 @@
 {
     "name": "wildlyinaccurate/google-suggestqueries-api",
     "description": "PHP library for retrieving suggestions from Google's suggestqueries API",
+    "keywords": ["google", "suggestion", "complete"]
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Joseph Wynn",
